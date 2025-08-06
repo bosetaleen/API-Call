@@ -1,0 +1,19 @@
+This file contains the logic to perform an API call to retrieve university data from a public or private endpoint. The API typically returns information such as university name, country, domains, web pages, and other metadata.
+
+🔧 Features:
+Makes a GET request to the university API (e.g., http://universities.hipolabs.com)
+
+Supports filtering by country or name (if supported by the API)
+
+Parses and returns clean university data in JSON format
+
+Includes basic error handling for failed requests or invalid responses
+
+📦 Use Cases:
+Building educational dashboards
+
+Autocomplete/select dropdowns for university names
+
+Country-wise analysis of higher education institutions
+
+Backend data integration for student applications or research portals
